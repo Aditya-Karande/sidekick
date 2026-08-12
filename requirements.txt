@@ -1,2 +1,7 @@
 fastapi
-uvicorn
+uvicorn 
+langgraph
+langchain
+langchain_community
+langchain_groq
+dotenv

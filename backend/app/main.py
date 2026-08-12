@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from api.query_api import query_router
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
@@ -12,8 +11,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/")
+@app.get("/health")
 def home():
     return "Welcome to SideKick.. Your personal AI chatbot"
-
-app.include_router(query_router)
