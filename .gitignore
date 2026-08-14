@@ -22,3 +22,7 @@ venv/
 .mypy_cache/
 .coverage
 htmlcov/
+
+# vs code folder
+.vscode/
+settings.json
