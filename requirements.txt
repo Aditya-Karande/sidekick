@@ -6,8 +6,3 @@ psycopg2-binary
 asyncpg
 pydantic-settings
 python-jose[cryptography]
-langgraph
-langchain
-langchain_community
-langchain_groq
-dotenv
